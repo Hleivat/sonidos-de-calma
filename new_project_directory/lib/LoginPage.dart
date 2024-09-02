@@ -36,7 +36,7 @@ class _LoginState extends State<LoginPage>{
         children: [
           Padding(
             padding: const EdgeInsets.all(16.0),
-            child: Text("Login Page", style: TextStyle(color: Colors.black, fontSize: 24),),
+            child: Text("INICIO SESIÓN", style: TextStyle(color: const Color.fromARGB(255, 22, 2, 139), fontSize: 24),),
           ),
           Offstage(
             offstage:error == '' ,
